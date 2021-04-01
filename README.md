@@ -63,6 +63,8 @@ In the folder Models there are .pickle and .h5 files of tested models.
 	|
 	|---Red flags detection
 	
+The folders *Models* and *Dataset* are empty or not completed because of privacy and/or dimension issues. 
+	
 WEBSITE folder
 
 In this folder there are the web application create with Flask. To open the website, run "sito.py"
