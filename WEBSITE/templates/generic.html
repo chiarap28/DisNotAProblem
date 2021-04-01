@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Generic - Interphase by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel-layers.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='skel.css')}}" /> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style-xlarge.css')}}" /> 
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Dis-: not a problem!</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="{{ url_for('home') }}">Home</a></li>
+						<li><a href="{{ url_for('generic') }}">Linee guida</a></li>
+						<li><a href="{{ url_for('elements') }}">Test</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>Prima di usare Dis-: not a problem!</h2>
+						<p>Alcune cose da sapere prima di usare questa applicazione!</p>
+					</header>
+
+					<p>Se non hai mai sentito parlare di DSA, dai una lettura al sito dell'<a href="https://www.aiditalia.org/it/la-dislessia">Associazione Italiana Dislessia.</a></p>
+                    </br>
+                    
+
+                        <h4>Le cose importanti da sapere!</h4>
+                        <p>Questa applicazione è pensata per individuare i campanelli d'allarme della disortografia, partendo dalla foto di un testo. Prima di usarla però ricorda:</p>
+                        <ol>
+                            <li>Questa applicazione NON fa una diagnosi!</li>
+                            <li>La presenza dei campanelli d'allarme non implica al 100% che ci sia il disturbo!</li>
+                            <li>Se l'applicazione individua molti campanelli d'allarme ripetutamente, rivolgiti a uno specialista.</li>
+                            <li>E in ogni caso, i DSA non sono una malattia! :-)</li>
+                        </ol>
+
+                        <a href="{{ url_for('elements') }}" class="button">Iniziamo!</a>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container"><script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Contact Us</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Mail</h3>
+							<a href="#">c.pugliese1@studenti.unipi.it</a>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							
+                            <h3>Phone</h3>
+                            (+39) 320-1492018
+
+                            </section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Dis-: not a problem. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>

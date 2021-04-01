@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<title>Elements - Interphase by TEMPLATED</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel-layers.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+		<link rel="stylesheet" href="{{ url_for('static', filename='skel.css')}}" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style-xlarge.css')}}" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="{{ url_for('generic') }}">Dis-: not a problem!</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="{{ url_for('home') }}">Home</a></li>
+						<li><a href="{{ url_for('generic') }}">Linee Guida</a></li>
+						<li><a href="{{ url_for('elements') }}">Test</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>Test!</h2>
+					</header>
+
+					<!-- Text -->
+						<section>
+							<h3>Le ultime avvertenze:</h3>
+							<ol>
+                            <li>Puoi testare il tuo scritto scritto attraverso una foto o direttamente scrivendo nello spazio apposito.</li>
+                            <li>Se carichi la foto, fai in modo che sia il più nitida possibile!</li>
+                            <li>Cerca di inquadrare solo il foglio (e non il tavolo :-) )</li>
+                            <li>Il risultato sarà migliore se il foglio non presenta quadretti o righe :-)</li>
+                            <li>Ultimo punto, ma non meno importante... Non allarmarti! :-)</li>
+                            </ol>
+                        </section>
+					<!-- Form -->
+						<section>
+							<h3>Test con foto:</h3>
+							<form method="post" action="{{ url_for('photo') }}">
+								<div class="row uniform 50%">
+									
+									<div class="12u$">
+										<div class="select-wrapper">
+											<select name="category" id="category">
+												<option value="">- Maiuscolo o Minuscolo? -</option>
+												<option value="maiuscolo">Maiuscolo</option>
+												<option value="minuscolo">Minuscolo</option>
+											</select>
+										</div>
+									</div>
+									
+									<div class="12u$">
+                                        <input class="action" type="file" id="img" name="img" accept="image/*">
+                                        <p></p>
+                                        
+                                        {{ error }}
+                                        
+										<ul class="actions">
+											<li><input type="submit" value="Carica foto" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+							{{ predict_text }}
+							</br>
+							{{ message }}
+						</section>
+                        <section>
+							<h3>Test con testo:</h3>
+							<form method="post" action="{{ url_for('text') }}">
+								<div class="row uniform 50%">
+									
+									<div class="12u$">
+										<div class="12u$">
+										<textarea name="message" id="message" placeholder="Scrivi qui..." rows="6"></textarea>
+									</div>
+									</div>
+									
+									<div class="12u$">
+                                                                             
+                                        {{ error }}
+                                        
+										<ul class="actions">
+											<li><input type="submit" value="Controlla" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+							{{ score }}
+							</br>
+						</section>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Contact Us</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Mail</h3>
+							<a href="#">c.pugliese1@studenti.unipi.it</a>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							
+                            <h3>Phone</h3>
+                            (+39) 320-1492018
+
+                            </section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Dis-: not a problem. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+					</ul>
+				</div>
+			</footer>
+
+
+	</body>
+</html>

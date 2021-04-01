@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="it">
+	<head>
+        {% block head %}
+		<meta charset="UTF-8">
+		<title>Dis-: not a problem!</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/skel-layers.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/init.js') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='skel.css')}}" /> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style-xlarge.css')}}" /> 
+    
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->.
+		{% endblock %}
+	</head>
+	<body class="landing">
+        {%block body%}
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="{{ url_for('generic') }}">Dis-: not a problem!</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="{{ url_for('home') }}">Home</a></li>
+						<li><a href="{{ url_for('generic') }}">Linee guida</a></li>
+						<li><a href="{{ url_for('elements') }}">Test!</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<img class="logo" src="{{ url_for('static', filename = "images/logoAPP.png") }}" alt="Dis-: not a problem!" />
+				<p></p>
+				<ul class="actions">
+					<li>
+						<a href="{{url_for('generic')}}" class="button big">Scopri di più</a>
+					</li>
+				</ul>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style1 align-center">
+				<div class="container">
+					<header>
+						<h2>Usare Dis-: not a problem! è semplice</h2>
+						<p></p>
+					</header>
+					<div class="row 200%">
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-camera"></i>
+							<p>Fai una foto alla pagina che vuoi controllare!</p>
+						</section>
+						<section class="4u 12u$(small)">
+							<i class="icon big rounded fa-book"></i>
+							<p>Noi penseremo a ricopiare il testo...</p>
+						</section>
+						<section class="4u$ 12u$(small)">
+							<i class="icon big rounded fa-search"></i>
+							<p>... e a cercare gli errori, se ce ne sono!</p>
+						</section>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style2 align-center">
+				<div class="container">
+					<header>
+						<h2>ABOUT</h2>
+						<p>Dis-: not a problem! (per ora) è il prototipo di un'applicazione per individuare i campanelli d'allarme della disortografia.</p>
+					</header>
+					<div class="row">
+						<section class="feature 6u 12u$(small)">
+							<img class="image fit" src="{{ url_for('static', filename = "images/chiara.jpg") }}" alt="" />
+						</section>
+						<section class="feature 6u$ 12u$(small)">
+							
+							<h3 class="title">Chi sono?</h3>
+							<p>Mi chiamo Chiara Pugliese e sono laureanda in Informatica Umanistica presso l'Università di Pisa. Dis-: not a problem! è, oltre al mio progetto di tesi, un progetto personale che ha lo scopo di aiutare chiunque a scoprire il mondo dei DSA!</p>
+						</section>
+						
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Contact Us</h3>
+							<ul class="icons">
+								<li><a href="#" class="icon rounded fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon rounded fa-google-plus"><span class="label">Google+</span></a></li>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Mail</h3>
+							<a href="#">c.pugliese1@studenti.unipi.it</a>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							
+                            <h3>Phone</h3>
+                            (+39) 320-1492018
+
+                            </section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; Dis-: not a problem. All rights reserved.</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+					</ul>
+				</div>
+			</footer>
+    {% endblock %}
+	</body>
+</html>
