@@ -34,19 +34,19 @@ In the folder Models there are .h5 files of tested models.
 
 The folder is organized as follow:
 
-HANDWRITING RECOGNITION\n
-|
-|---Models
-|	|
-|	|---Images of models
-|---Uppercase Handwriting Recognition
-|	|
-|	|---Data Augmentation
-|	|---No Data Augmentation
-|---Lowercase Handwriting Recognition
+	HANDWRITING RECOGNITION
 	|
-	|---Data Augmentation
-	|---No Data Augmentation
+	|---Models
+	|	|
+	|	|---Images of models
+	|---Uppercase Handwriting Recognition
+	|	|
+	|	|---Data Augmentation
+	|	|---No Data Augmentation
+	|---Lowercase Handwriting Recognition
+		|
+		|---Data Augmentation
+		|---No Data Augmentation
 	
 RED FLAGS DETECTION folder
 
