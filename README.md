@@ -11,67 +11,67 @@ Progetto di tesi magistrale (Informatica Umanistica) di CHIARA PUGLIESE \n
 3. Flask v. 1.1.2
 4. nltk v. 3.2.5
 
-The folder is organized as follow:
+The folder is organized as follow:\n
 
-Dis-: not a problem:
-|
-|---Detection&Segmentation of images
-|---Handwriting recognition
-|---Red flags of dysorthography
-|---Website
+Dis-: not a problem:\n
+|\n
+|---Detection&Segmentation of images\n
+|---Handwriting recognition\n
+|---Red flags of dysorthography\n
+|---Website\n
 
-HANDWRITING DETECTION AND IMAGE SEGMENTATION folder.
+HANDWRITING DETECTION AND IMAGE SEGMENTATION folder.\n
 
-Files in this folder are .ipynd, so they are jupyter notebook files.
-In this folder there are scripts for handwritining detection, starting from images and for image segmentation in words and characters.
+Files in this folder are .ipynd, so they are jupyter notebook files.\n
+In this folder there are scripts for handwritining detection, starting from images and for image segmentation in words and characters.\n
 
 HANDWRITING RECOGNITION folder
+\n
+Files in this folder are .ipynd, so they are jupyter notebook files.\n
+In this folder there are scripts for handwriting recognition.\n
+In the folder Models there are .h5 files of tested models.\n
 
-Files in this folder are .ipynd, so they are jupyter notebook files.
-In this folder there are scripts for handwriting recognition.
-In the folder Models there are .h5 files of tested models.
+The folder is organized as follow:\n
 
-The folder is organized as follow:
-
-HANDWRITING RECOGNITION
-|
-|---Models
-|	|
-|	|---Images of models
-|---Uppercase Handwriting Recognition
-|	|
-|	|---Data Augmentation
-|	|---No Data Augmentation
-|---Lowercase Handwriting Recognition
-	|
-	|---Data Augmentation
-	|---No Data Augmentation
+HANDWRITING RECOGNITION\n
+|\n
+|---Models\n
+|	|\n
+|	|---Images of models\n
+|---Uppercase Handwriting Recognition\n
+|	|\n
+|	|---Data Augmentation\n
+|	|---No Data Augmentation\n
+|---Lowercase Handwriting Recognition\n
+	|\n
+	|---Data Augmentation\n
+	|---No Data Augmentation\n
 	
-RED FLAGS DETECTION folder
+RED FLAGS DETECTION folder\n
 
-Files in this folder are .ipynd, so they are jupyter notebook files.
-In this folder there are scripts for red flags detection.
-In the folder Models there are .pickle and .h5 files of tested models.
+Files in this folder are .ipynd, so they are jupyter notebook files.\n
+In this folder there are scripts for red flags detection.\n
+In the folder Models there are .pickle and .h5 files of tested models.\n
 
-RED FLAGS DETECTION
-|
-|---Models
-|
-|---Dataset
-|
-|---Red flags detection
+RED FLAGS DETECTION\n
+|\n
+|---Models\n
+|\n
+|---Dataset\n
+|\n
+|---Red flags detection\n
 	
-WEBSITE folder
+WEBSITE folder\n
 
-In this folder there are the web application create with Flask. To open the website, run "sito.py"
-The folder is organized as follow:
+In this folder there are the web application create with Flask. To open the website, run "sito.py"\n
+The folder is organized as follow:\n
 
-WEBSITE
-|
-|---static
-|	|
-|	|---fonts
-|	|---images
-|	|---js
-|
-|---templates
+WEBSITE\n
+|\n
+|---static\n
+|	|\n
+|	|---fonts\n
+|	|---images\n
+|	|---js\n
+|\n
+|---templates\n
