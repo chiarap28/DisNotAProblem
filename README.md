@@ -14,15 +14,11 @@ Progetto di tesi magistrale (Informatica Umanistica) di CHIARA PUGLIESE
 
 The folder is organized as follow:
 
-Dis-: not a problem:
-
-|
-
-|---Detection&Segmentation of images
-
-|---Handwriting recognition
-|---Red flags of dysorthography
-|---Website
+Dis-: not a problem
+	Detection&Segmentation of images
+	Handwriting recognition
+	Red flags of dysorthography
+	Website
 
 HANDWRITING DETECTION AND IMAGE SEGMENTATION folder.
 
