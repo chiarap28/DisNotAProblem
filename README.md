@@ -26,6 +26,7 @@ HANDWRITING DETECTION AND IMAGE SEGMENTATION folder.
 Files in this folder are .ipynd, so they are jupyter notebook files.
 In this folder there are scripts for handwritining detection, starting from images and for image segmentation in words and characters.
 
+
 HANDWRITING RECOGNITION folder
 
 Files in this folder are .ipynd, so they are jupyter notebook files.
@@ -54,25 +55,25 @@ Files in this folder are .ipynd, so they are jupyter notebook files.
 In this folder there are scripts for red flags detection.
 In the folder Models there are .pickle and .h5 files of tested models.
 
-RED FLAGS DETECTION
-|
-|---Models
-|
-|---Dataset
-|
-|---Red flags detection
+	RED FLAGS DETECTION
+	|
+	|---Models
+	|
+	|---Dataset
+	|
+	|---Red flags detection
 	
 WEBSITE folder
 
 In this folder there are the web application create with Flask. To open the website, run "sito.py"
 The folder is organized as follow:
 
-WEBSITE
-|
-|---static
-|	|
-|	|---fonts
-|	|---images
-|	|---js
-|
-|---templates
+	WEBSITE
+	|
+	|---static
+	|	|
+	|	|---fonts
+	|	|---images
+	|	|---js
+	|
+	|---templates
